@@ -1,0 +1,194 @@
+article.why-info-grows {
+ background: #3b9343 url('/static/img/publications/books/information-bg.png') repeat 50% 0% fixed; 
+ }
+article.why-info-grows section {
+background-color: #fff; 
+}
+article.why-info-grows section content div:first-child {
+display: block;
+width: 100%; 
+}
+
+article.why-info-grows section content div:first-child h3,
+article.why-info-grows section content div:first-child h4 {
+display: inline-block; 
+}
+article.why-info-grows section content div:first-child h3 {
+ margin-right: 8px ; 
+ }
+article.why-info-grows section content div:first-child h4 {
+margin-top: 10px;
+margin-bottom: 20px; 
+}
+ @media all and (max-width: 768px) {
+article.why-info-grows section content div:first-child h4 {
+margin-top: 5px;
+margin-bottom: 10px;   }
+}
+body{
+  font-family: Sans-Serif, arial;
+}
+
+#container{
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 1000px;
+}
+
+#header{
+  position: relative;
+  width: 1000px;
+  height: 250px;
+}
+
+#logo_ahc{
+  position: relative;
+  float: left;
+  height: auto;
+  width: auto;
+  max-width: 345px;
+  max-height: 345px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#logo_go{
+  position: relative;
+  float: right;
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#selector{
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 410px;
+}
+
+.ancho_select{
+  width: 200px;
+}
+
+
+/*============================= INICIO CUERPO ================================*/
+#cuerpo{
+  position: relative;
+  width: 1000px;
+  height: 1200px;
+}
+
+#contenedor_distribucion{
+  position: relative;
+  float:left;
+  margin-top: 20px;
+}
+
+#grafico_distribucion{
+  position: relative;
+  width: 460px;
+  height: 507px;
+}
+#graficoP{
+  position: relative;
+  width: 560px;
+  height: 407px;
+  font-size: 50px;
+}
+
+#legend{
+  position: relative;
+  width: 1000px;
+  height: 50px;
+  font-size: 50px;
+}
+
+#rect{
+  position: relative;
+  width: 1000px;
+  height: 50px;
+  font-size: 50px;
+}
+
+#hook{
+  position: relative;
+  width: 1000px;
+  height: 50px;
+  font-size: 50px;
+  font-family:"Times New Roman", Times, serif
+  
+}
+
+
+
+#contenedor_portal_transparencia{
+  position: relative;
+  float: right;
+  margin-top: 20px;
+}
+
+
+#portal_transparencia{
+  position: relative;
+  width: 560px;
+  height: 407px;
+  font-size: 50px;
+}
+
+
+#contenedor_evolucion{
+  position: relative;
+  float: left;
+  width: 1000px;
+  /*height: 500px;*/
+  margin-top: 75px;
+}
+
+#grafico_evolucion{
+ width:100%
+
+}
+
+/*============================= FIN CUERPO ===================================*/
+.mytooltip {
+  position:absolute;
+  text-align: left;
+  width: 200px;
+  height:auto;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  color: #787777;
+  padding: 1px 5px;
+  z-index:1;
+}
+
+.mytooltip:after { /*=el piquito*/
+  box-sizing: border-box;
+  display: inline;
+  width: 100%;
+  line-height: 1;
+  color: #FFFFFF;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+  margin: -3px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.mytooltip span {
+    display: block;
+    text-align: left;
+    width: 0px;
+    height: auto;
+  }
+
+#thumbnail {
+    width: 200px;
+    height: auto;
+    margin: 5 auto;
+    color: #000000;
+    text-align: left;
+
+  }
