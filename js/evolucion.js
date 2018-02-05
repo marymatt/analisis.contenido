@@ -1,4 +1,4 @@
-var servidor="https://apirestanalisis.herokuapp.com"
+var servidor="https://apirestanalisi2018.herokuapp.com"
 var direccion = servidor + "/" //local
 
 function evolucion(){

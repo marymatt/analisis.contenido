@@ -1,7 +1,7 @@
 
 // var servidor  = "http://localhost" //local
 var puerto    = "8080"
-var servidor="https://apirestanalisis.herokuapp.com"
+var servidor="https://apirestanalisi2018.herokuapp.com"
 var direccion = servidor + "/" //local
 
 //var direccion = servidor + ":" + puerto + "/" //local
@@ -49,7 +49,7 @@ function distribucion(){
   {categoria: "Sociedad y bienestar",  color: "#DA1C5C", "image":"images/ico-category/ico-cat-sociedad-y-bienestar-hover-alt.png"},
   {categoria: "Medio Rural",  color: "#9B8578", "image":"images/ico-category/ico-cat-medio-rural-hover-alt.png"}
 ]
-	 
+
 
 
       link = direccion + "descarga?anyo=" + parametro.anyo + "&mes=" + parametro.mes
@@ -60,7 +60,7 @@ function distribucion(){
        //.container("#grafico_distribucion")  // container DIV to hold the visualization
 	   .container("#graficoP")
         .data(data)  // data to use with the visualization
-        .type("tree_map")   // visualization type		
+        .type("tree_map")   // visualization type
 		.icon({
 			  "style": "knockout",
 			  "value": "image"
@@ -84,7 +84,7 @@ function distribucion(){
 
         .draw()
     },
-	
+
     error : function(data) {
 
       console.log(data);
