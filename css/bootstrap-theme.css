@@ -2862,6 +2862,7 @@ input[type="button"].btn-block {
 }
 .open > .dropdown-menu {
   display: block;
+  margin-left: -200px;/* modificar aquí la posicion del tooltip de (i) */
   opacity: 0.9;
 }
 .open > a {

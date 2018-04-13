@@ -1201,6 +1201,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.176) !important;
 
+
     border: none !important;
 
     border-radius: 4px;
@@ -1241,7 +1242,8 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
     .dropdown-menu.extended  {
 
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176) !important;
+        box-shadow: 0 2px 50px rgba(0, 0, 0, 0.176) !important;
+        float: left;
 
     };
 
@@ -1321,9 +1323,11 @@ div[data-role="editor-toolbar"] {
 
     background-color: #F1F2F7;
     color: #666666;
-    margin: 0;
-    padding: 0px;
-
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    line-height: normal;
+    text-align: justify;
 }
 
 
@@ -1382,10 +1386,8 @@ div[data-role="editor-toolbar"] {
 
 .dropdown-menu.extended li a {
 
-    padding: 15px 10px !important;
-
+    padding: 0px 0px !important;
     width: 100%;
-
     display: inline-block;
 
 }
@@ -1424,7 +1426,7 @@ div[data-role="editor-toolbar"] {
 
     font-weight: 600;
 
-    padding-left: 10px;
+    padding-left: 0px;
 
     margin-top: -4px;
 
@@ -1552,9 +1554,9 @@ div[data-role="editor-toolbar"] {
 
 .dropdown-menu.extended.logout > li:last-child {
 
-    float: left;
+    float: right;
 
-    text-align: left;
+    text-align: right;
 
     width: 100%;
 
@@ -1574,16 +1576,15 @@ div[data-role="editor-toolbar"] {
 .dropdown-menu.extended.logout > li > a {
 
     border-bottom: 1px solid #EBEBEB !important;
-
     font-size: 14px;
-
     list-style: none;
 
-    padding: 0px 0px !important;
+    padding: 20px 20px !important;
 
     width: 100%;
 
     display: inline-block;
+     text-align: center;
 
 }
 
@@ -1612,6 +1613,7 @@ div[data-role="editor-toolbar"] {
 .dropdown-menu.extended.logout > li > a > i {
 
     display: inline-block;
+     text-align: center;
 
     padding-right: 0px
 
@@ -1635,13 +1637,13 @@ div[data-role="editor-toolbar"] {
 
     background: none;
 
-    margin-right: 0;
+    margin-right: 10px;
 
 }
 
 .top-nav ul.top-menu > li {
 
-    margin-left: 10px;
+    margin-left: 1px;
 
 }
 
